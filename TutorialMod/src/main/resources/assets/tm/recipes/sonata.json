@@ -1,0 +1,22 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "tm:sonata"
+    },
+
+    {
+      "item": "minecraft:gold_ingot"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "tm:sonata_block",
+        "count": 1
+    }
+}

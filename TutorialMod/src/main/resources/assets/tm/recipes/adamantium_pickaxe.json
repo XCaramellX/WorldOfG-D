@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "AAA",
+        " / ",
+        " / "
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "tm:adamantium"
+        },
+        
+        "/":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:adamantium_pickaxe",
+        "count": 1
+    }
+}

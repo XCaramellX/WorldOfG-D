@@ -1,0 +1,25 @@
+//entities
+entity.red_troll.name=Red Troll
+
+//Items
+item.adamantium.name=Adamantium
+item.sonata.name=Sonata Stone
+
+//Blocks
+tile.adamantium_block.name= Adamantium Glass
+tile.sonata_block.name= Sonata Block
+tile.adamantium_ore.name= Adamantium Ore
+tile.sonata_ore.name= Sonata Ore
+
+//Tools
+item.adamantium_sword.name=Adamantium Blade
+item.adamantium_shovel.name=Adamantium Shovel
+item.adamantium_pickaxe.name=Adamantium Pickaxe
+item.adamantium_axe.name=Adamantium Axe
+item.adamantium_hoe.name=Adamantium Hoe
+
+//armor
+item.adamantium_helmet.name=Adamantium Helmet
+item.adamantium_leggings.name=Adamantium Pants
+item.adamantium_chestplate.name=Adamantium Plate
+item.adamantium_boots.name=Adamantium Shoes

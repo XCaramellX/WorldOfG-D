@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "D D",
+        "DAD",
+        "D D"
+    ],
+    
+    "key":
+    {
+        "A":
+        {
+            "item": "tm:adamantium"
+        },
+        
+        "D":
+        {
+            "item": "minecraft:diamond"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:adamantium_block",
+        "count": 5
+    }
+}

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tm",
+  "name": "Weapons of Gods & Monsters",
+  "description": "This mod started out as a mod I learned from a tutorial but I decided to expand upon it.To try to make This a fleshed out mod.",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Caramell"],
+  "credits": "loremaster for making a video on minecraft modding :)",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
