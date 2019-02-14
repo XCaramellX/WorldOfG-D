@@ -3,6 +3,7 @@ package com.caramell.tutorialmod.entity;
 
 
 import com.caramell.tutorialmod.init.ModItems;
+import com.caramell.tutorialmod.util.handlers.LootTableHandler;
 
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityAgeable;
@@ -78,10 +79,9 @@ public class EntityRed_Troll extends EntityIronGolem
 	@Override
     protected ResourceLocation getLootTable()
     {
-        return LootTableList.ENTITIES_IRON_GOLEM;
-    }
+        return LootTableHandler.RED_TROLL;
 
-	
+    }
 
 	@Override
 	public float getEyeHeight() {
