@@ -37,18 +37,20 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.DamageSource;
 import net.minecraft.util.EnumHand;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.world.World;
+import net.minecraft.world.storage.loot.LootTableList;
 import scala.tools.nsc.transform.SpecializeTypes.Implementation;
 
-public class EntityRed_Troll extends EntityGolem
+public class EntityRed_Troll extends EntityIronGolem
 {
 
 	public EntityRed_Troll (World worldIn) 
 	{
 		super(worldIn);
 		this.setSize(1.4F, 2.7F);
-	
+	    this.isImmuneToFire();
 	}
 	
 	@Override
@@ -57,10 +59,8 @@ public class EntityRed_Troll extends EntityGolem
         this.tasks.addTask(1, new EntityAISwimming(this));
         this.tasks.addTask(5, new EntityAIWanderAvoidWater(this, 1.0D));
         this.tasks.addTask(6, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
-        this.tasks.addTask(6, new EntityAILookIdle(this));
-        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false, new Class[0]));
         this.targetTasks.addTask(2, new EntityAINearestAttackableTarget(this, EntityPlayer.class, true));
-        
+        this.tasks.addTask(1, new EntityAIAttackMelee(this, 1.0D, true));
         
 	}
 	
@@ -72,10 +72,15 @@ public class EntityRed_Troll extends EntityGolem
 		super.applyEntityAttributes();
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(400.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.20D);
-		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(400.0D);
 		this.getAttributeMap().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(400.0D);
 	}
 	
+	@Override
+    protected ResourceLocation getLootTable()
+    {
+        return LootTableList.ENTITIES_IRON_GOLEM;
+    }
+
 	
 
 	@Override
@@ -83,7 +88,7 @@ public class EntityRed_Troll extends EntityGolem
 		
 		return 2.5F;
 	}
-	public EntityGolem createChild(EntityAgeable ageable)
+	public EntityIronGolem createChild(EntityAgeable ageable)
 	{
 		return new EntityRed_Troll(world);
 	}
@@ -105,6 +110,7 @@ public class EntityRed_Troll extends EntityGolem
 	{
 		return super.getDeathSound();
 	}
+
 	
 
 }
