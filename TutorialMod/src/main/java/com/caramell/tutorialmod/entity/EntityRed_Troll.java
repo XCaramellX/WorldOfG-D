@@ -73,15 +73,10 @@ public class EntityRed_Troll extends EntityGolem
 		this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(400.0D);
 		this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.20D);
 		this.getEntityAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(400.0D);
-		
+		this.getAttributeMap().registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(400.0D);
 	}
 	
-	private IAttributeInstance registerAttribute(IAttribute attackDamage) {
-		
-		this.registerAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(100.0D);
-		
-		return null;
-	}
+	
 
 	@Override
 	public float getEyeHeight() {
