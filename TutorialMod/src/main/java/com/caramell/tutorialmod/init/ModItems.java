@@ -34,6 +34,7 @@ public class ModItems
 	public static final ToolMaterial MATERIAL_ADAMANTIUM = EnumHelper.addToolMaterial("material_adamantium", 3, 1561, 20.0F, 20.0F, 20);
 	public static final ArmorMaterial ARMOR_MATERIAL_ADAMANTIUM = EnumHelper.addArmorMaterial("armor_material_adamantium", Reference.MOD_ID + ":adamantium", 25, 
 		new int[] {5, 8, 10, 5}, 15, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 0.0F);
+	public static final ToolMaterial MATERIAL_SONATA = EnumHelper.addToolMaterial("material_sonata", 2, 500, 10.0F, 10.0F, 30);
 	//boots, leggings, chest plate, helmet
 	//Items
 	public static final Item ADAMANTIUM= new ItemBase("adamantium");
@@ -46,6 +47,12 @@ public class ModItems
 	public static final ItemPickaxe ADAMANTIUM_PICKAXE =  new ToolPickaxe("adamantium_pickaxe", MATERIAL_ADAMANTIUM);
 	public static final ItemAxe ADAMANTIUM_AXE =  new ToolAxe("adamantium_axe", MATERIAL_ADAMANTIUM);
 	public static final ItemHoe ADAMANTIUM_HOE =  new ToolHoe("adamantium_hoe", MATERIAL_ADAMANTIUM);
+	
+	public static final ItemSword SONATA_SWORD = new ToolSword("sonata_sword", MATERIAL_SONATA);
+	public static final ItemSpade SONATA_SHOVEL =  new ToolSpade("sonata_shovel", MATERIAL_SONATA);
+	public static final ItemPickaxe SONATA_PICKAXE =  new ToolPickaxe("sonata_pickaxe", MATERIAL_SONATA);
+	public static final ItemAxe SONATA_AXE =  new ToolAxe("sonata_axe", MATERIAL_SONATA);
+	public static final ItemHoe SONATA_HOE =  new ToolHoe("sonata_hoe", MATERIAL_SONATA);
 	
 	//Armor
 	public static final Item ADAMANTIUM_HELMET = new ArmorBase("adamantium_helmet", ARMOR_MATERIAL_ADAMANTIUM, 1, EntityEquipmentSlot.HEAD);
