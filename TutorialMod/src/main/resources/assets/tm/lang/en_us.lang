@@ -4,7 +4,7 @@ entity.red_troll.name=Red Troll
 //Items
 item.adamantium.name=Adamantium
 item.sonata.name=Sonata Stone
-
+item.golden_red.name= Golden Red Gem
 //Blocks
 tile.adamantium_block.name= Adamantium Glass
 tile.sonata_block.name= Sonata Block

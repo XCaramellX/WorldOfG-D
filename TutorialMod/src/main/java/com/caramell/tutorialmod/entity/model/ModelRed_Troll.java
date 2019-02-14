@@ -73,15 +73,15 @@ public class ModelRed_Troll extends ModelBase {
     {
     	this.iceGiantLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
     	this.iceGiantRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;
-    	this.iceGiantLeftArm.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
-    	this.iceGiantRightArm.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
+    	this.iceGiantLeftArm.rotateAngleX = MathHelper.cos(limbSwing * 0.662F) * 1.4F * limbSwingAmount;
+    	this.iceGiantRightArm.rotateAngleX = MathHelper.cos(limbSwing * 0.662F) * 1.4F * limbSwingAmount;
     	
     	this.iceGiantHead.rotateAngleY = netHeadYaw * 0.017453292F;
     	this.iceGiantHead.rotateAngleY = headPitch * 0.017453292F;
     }
     
     
-    
+    //0.662F
     
     
     

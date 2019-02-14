@@ -38,6 +38,7 @@ public class ModItems
 	//Items
 	public static final Item ADAMANTIUM= new ItemBase("adamantium");
 	public static final Item SONATA= new ItemBase("sonata");
+	public static final Item GOLDEN_RED= new ItemBase("golden_red");
 	
 	//Tools
 	public static final ItemSword ADAMANTIUM_SWORD = new ToolSword("adamantium_sword", MATERIAL_ADAMANTIUM);
