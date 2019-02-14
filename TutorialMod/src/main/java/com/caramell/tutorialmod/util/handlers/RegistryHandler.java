@@ -7,6 +7,7 @@ import com.caramell.tutorialmod.util.IHasModel;
 import com.caramell.tutorialmod.Main;
 
 import net.minecraft.block.Block;
+import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
@@ -61,7 +62,7 @@ public class RegistryHandler
    
 	public static void initRegistries(FMLInitializationEvent event)
 	{
-			
+		
 	}
 	
 	public static void postInitRegistries(FMLPostInitializationEvent event)
