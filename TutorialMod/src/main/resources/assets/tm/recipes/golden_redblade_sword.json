@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "GGG",
+        "GGG",
+        "G/G"
+    ],
+    
+    "key":
+    {
+        "G":
+        {
+            "item": "tm:golden_red"
+        },
+        
+        "/":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:golden_redblade_sword",
+        "count": 1
+    }
+}

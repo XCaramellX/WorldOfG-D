@@ -1,8 +1,12 @@
 Minecraft Mod - World of Gods and Demons :
 
 To Do:
-sonata and Items - partly Done (armors need to be done)
+Items:
+Recipe for sonata Items - not done
+Recipe for redblade - not done
+Entities:
 Red Troll entity - partly Done (need to animate attack)
+Admorsus's spawn
 -------------------------------------------------------------------------------------------------------------------------------
 Done :
 adamantium and Items - Done
@@ -10,6 +14,8 @@ red gem - Done
 Red troll drops gem - Done
 Red troll loot table - Done
 sonata tools - Done
+sonata and Items  - Done
+Knoll's Sword - Done
 ------------------------------------------------------------------------------------------------------------------------------
 Possible future:
 More entities

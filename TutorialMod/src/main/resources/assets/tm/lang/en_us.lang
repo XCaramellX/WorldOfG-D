@@ -17,7 +17,12 @@ item.adamantium_shovel.name=Adamantium Shovel
 item.adamantium_pickaxe.name=Adamantium Pickaxe
 item.adamantium_axe.name=Adamantium Axe
 item.adamantium_hoe.name=Adamantium Hoe
-
+item.sonata_sword.name=Sonata Blade
+item.sonata_shovel.name=Sonata Shovel
+item.sonata_pickaxe.name=Sonata Pickaxe
+item.sonata_axe.name=Sonata Axe
+item.sonata_hoe.name=Sonata Hoe
+item.golden_redblade_sword.name= Knoll's Blade
 //armor
 item.adamantium_helmet.name=Adamantium Helmet
 item.adamantium_leggings.name=Adamantium Pants

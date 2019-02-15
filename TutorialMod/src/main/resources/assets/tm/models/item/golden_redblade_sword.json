@@ -1,0 +1,6 @@
+{
+   "parent": "item/handheld",
+   "textures": {
+       "layer0": "tm:items/golden_redblade_sword"
+   }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " SS",
+        "S S",
+        " / "
+    ],
+    
+    "key":
+    {
+        "S":
+        {
+            "item": "tm:sonata"
+        },
+        
+        "/":
+        {
+            "item": "minecraft:stick"
+        }
+    },
+    
+    "result":
+    {
+        "item": "tm:sonata_sword",
+        "count": 1
+    }
+}
